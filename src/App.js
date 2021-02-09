@@ -1,13 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import axios from "axios";
-
-import { useState, useEffect } from "react";
 
 // Components
-import Home from "./components/home/Home";
-import Projects from "./components/projects/Projects";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
+import Home from "./Home";
+import Projects from "./Projects";
+import Navbar from "./Navbar";
 
 const App = () => {
   return (
@@ -21,9 +17,6 @@ const App = () => {
             </Route>
             <Route path="/projects">
               <Projects />
-            </Route>
-            <Route path="/contact">
-              <Contact />
             </Route>
           </Switch>
         </div>
