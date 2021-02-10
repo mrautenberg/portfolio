@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Navbar />
         <div className="container">
+          <Navbar />
           <Switch>
             <Route exact path="/">
               <Home />
