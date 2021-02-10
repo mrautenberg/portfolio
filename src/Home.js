@@ -2,29 +2,25 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const Home = () => {
-  const [loading, setLoading] = useState(false);
   const [user, setUser] = useState({});
 
   useEffect(() => {
     const getUser = async () => {
-      setLoading(true);
-
       const res = await axios.get("https://api.github.com/users/mrautenberg");
 
       setUser(res.data);
-      setLoading(false);
     };
 
     getUser(user);
     // eslint-disable-next-line
   }, []);
 
-  const { name, bio, html_url, public_repos, avatar_url } = user;
+  const { html_url, public_repos } = user;
 
   return (
     <main className="home-container">
-      <h2>Hello.</h2>
-      <h3>My name is Max Rautenberg.</h3>
+      <h1>Hello.</h1>
+      <h2>My name is Max Rautenberg.</h2>
       <p>
         I'm an aspiring developer at the beginning of my journey of becoming a
         React developer. Before doing this, I worked in academia for a couple of
@@ -36,7 +32,7 @@ const Home = () => {
         Open source is an awesome thing, and I try to have all my source code
         available on Github (currently {public_repos} public repos). Check out
         my{" "}
-        <a className="fancy" href={html_url}>
+        <a className="highlight" href={html_url}>
           Github
         </a>{" "}
         to see all of my ongoing and finished projects.
@@ -50,8 +46,8 @@ const Home = () => {
         I'm currently looking for a place to do my LIA. If you want to get in
         touch with me in regards to that, or just want to say hi, feel free to
         write an email to{" "}
-        <span className="fancy"> mrautenberg@outlook.com</span> or contact me on{" "}
-        <span className="fancy">LinkedIn</span>.
+        <span className="highlight"> mrautenberg@outlook.com</span> or contact
+        me on <span className="highlight">LinkedIn</span>.
       </p>
     </main>
   );

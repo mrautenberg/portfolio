@@ -7,21 +7,19 @@ import Navbar from "./Navbar";
 
 const App = () => {
   return (
-    <div>
-      <Router>
-        <div className="container">
-          <Navbar />
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
-    </div>
+    <Router>
+      <div className="container">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 };
 
