@@ -32,7 +32,12 @@ const Home = () => {
         Open source is an awesome thing, and I try to have all my source code
         available on Github (currently {public_repos} public repos). Check out
         my{" "}
-        <a className="highlight" href={html_url}>
+        <a
+          className="highlight"
+          href={html_url}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           Github
         </a>{" "}
         to see all of my ongoing and finished projects.
@@ -46,8 +51,20 @@ const Home = () => {
         I'm currently looking for a place to do my LIA. If you want to get in
         touch with me in regards to that, or just want to say hi, feel free to
         write an email to{" "}
-        <span className="highlight"> mrautenberg@outlook.com</span> or contact
-        me on <span className="highlight">LinkedIn</span>.
+        <a href="mailto:mrautenberg@outlook.com" className="highlight">
+          {" "}
+          mrautenberg@outlook.com
+        </a>{" "}
+        or contact me on{" "}
+        <a
+          className="highlight"
+          href="https://www.linkedin.com/in/max-rautenberg-9ba027109/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        .
       </p>
     </main>
   );

@@ -14,11 +14,21 @@ const Projects = () => {
           useReducer, useContext, External API
         </small>
         <div className="buttons">
-          <a className="btn" href="/">
+          <a
+            className="btn btn-primary"
+            href="https://rautenberg-githubfinder.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             LIVE VERSION
           </a>
-          <a className="btn" href="/">
-            SOURCE CODE
+          <a
+            className="btn btn-secondary"
+            href="https://github.com/mrautenberg/react-github-finder"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GITHUB
           </a>
         </div>
       </article>
@@ -35,11 +45,21 @@ const Projects = () => {
           Project, Local Storage, Editor, Markdown,
         </small>
         <div className="buttons">
-          <a className="btn" href="/">
+          <a
+            className="btn btn-primary"
+            href="https://penapp.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             LIVE VERSION
           </a>
-          <a className="btn" href="/">
-            SOURCE CODE
+          <a
+            className="btn btn-secondary"
+            href="https://github.com/gunkarlsson/fe20tp1_pen"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GITHUB
           </a>
         </div>
       </article>
@@ -56,11 +76,21 @@ const Projects = () => {
           Todo list, Local Storage, BEM CSS.
         </small>
         <div className="buttons">
-          <a className="btn" href="/">
+          <a
+            className="btn btn-primary"
+            href="https://rautenberg-listig.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             LIVE VERSION
           </a>
-          <a className="btn" href="/">
-            SOURCE CODE
+          <a
+            className="btn btn-secondary"
+            href="https://github.com/mrautenberg/todolist"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GITHUB
           </a>
         </div>
       </article>
