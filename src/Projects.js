@@ -15,7 +15,7 @@ const Projects = () => {
         </small>
         <div className="buttons">
           <a
-            className="btn btn-primary"
+            className="btn btn-primary floating"
             href="https://rautenberg-githubfinder.netlify.app/"
             rel="noopener noreferrer"
             target="_blank"
@@ -23,7 +23,7 @@ const Projects = () => {
             LIVE VERSION
           </a>
           <a
-            className="btn btn-secondary"
+            className="btn btn-secondary floating"
             href="https://github.com/mrautenberg/react-github-finder"
             rel="noopener noreferrer"
             target="_blank"
@@ -46,7 +46,7 @@ const Projects = () => {
         </small>
         <div className="buttons">
           <a
-            className="btn btn-primary"
+            className="btn btn-primary floating"
             href="https://penapp.netlify.app/"
             rel="noopener noreferrer"
             target="_blank"
@@ -54,7 +54,7 @@ const Projects = () => {
             LIVE VERSION
           </a>
           <a
-            className="btn btn-secondary"
+            className="btn btn-secondary floating"
             href="https://github.com/gunkarlsson/fe20tp1_pen"
             rel="noopener noreferrer"
             target="_blank"
@@ -77,7 +77,7 @@ const Projects = () => {
         </small>
         <div className="buttons">
           <a
-            className="btn btn-primary"
+            className="btn btn-primary floating"
             href="https://rautenberg-listig.netlify.app/"
             rel="noopener noreferrer"
             target="_blank"
@@ -85,7 +85,7 @@ const Projects = () => {
             LIVE VERSION
           </a>
           <a
-            className="btn btn-secondary"
+            className="btn btn-secondary floating"
             href="https://github.com/mrautenberg/todolist"
             rel="noopener noreferrer"
             target="_blank"

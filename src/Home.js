@@ -1,20 +1,4 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-
-const Home = () => {
-  const [user, setUser] = useState({});
-
-  useEffect(() => {
-    const getUser = async () => {
-      const res = await axios.get("https://api.github.com/users/mrautenberg");
-
-      setUser(res.data);
-    };
-
-    getUser(user);
-    // eslint-disable-next-line
-  }, []);
-
+const Home = ({ user }) => {
   const { html_url, public_repos } = user;
 
   return (

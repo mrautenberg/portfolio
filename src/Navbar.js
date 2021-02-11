@@ -5,12 +5,14 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <Link className="active" to="/">
+          <Link className="link" to="/">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link className="link" to="/projects">
+            Projects
+          </Link>
         </li>
       </ul>
     </nav>
