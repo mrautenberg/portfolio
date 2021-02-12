@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-  --clr-accent: rgb(228, 15, 175);
+  --clr-accent: rgb(251, 0, 125);
   --text-clr-dark: #333;
   --text-clr-light: #fafafa;
 }
@@ -64,15 +64,16 @@ h1 {
 /* NAVBAR */
 nav {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: flex-end;
-  height: 8vh;
+  height: 10vh;
 }
 
 ul {
   display: flex;
   align-items: center;
+  margin-top: 2rem;
+  height: 100%;
 }
 
 li {
@@ -81,13 +82,18 @@ li {
 }
 
 nav a {
+  display: flex;
   color: var(--text-clr-dark);
   text-decoration: none;
   font-size: 1.4rem;
+  text-align: center;
 }
 
-.active {
+.link--active {
+  text-align: center;
+  margin-top: 8px;
   border-bottom: 8px solid var(--clr-accent);
+  font-weight: 700;
 }
 
 /* HOME AND PROJECT PAGE */
@@ -111,11 +117,12 @@ nav a {
 
 .project-description {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 .buttons {
-  margin-top: 0.5rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
   max-width: 380px;
   display: flex;
   justify-content: space-between;
@@ -159,6 +166,6 @@ a.floating:hover {
 }
 
 .link:hover {
-  border-bottom: 8px solid var(--clr-accent);
-  transition: ease-in 0.1s;
+  font-weight: 700;
+  transition: 0.2s;
 }

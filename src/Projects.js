@@ -36,7 +36,7 @@ const Projects = () => {
         <h2 className="project-title">Note app: Pen.</h2>
         <p className="project-description">
           First major team project at KYH using Github flow, scrum & sprints. A
-          note-app with markdown functionality using simpleMDE and adding extra
+          note-app with markdown functionality using SimpleMDE and adding extra
           functionaliy. Note sorting, dark mode feature and saves notes in local
           storage.
         </p>
