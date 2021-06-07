@@ -2,21 +2,25 @@ const Projects = () => {
   return (
     <main className="project-container">
       <h1>Projects.</h1>
+
       <article>
-        <h2 className="project-title">React Github Finder.</h2>
+        <h2 className="project-title">Unscripted</h2>
         <p className="project-description">
-          Project from Brad Traversy's React front to back course on Udemy.
-          Fetches data from Github API using Axios. Written with class-based
-          components and refactored to functional components with hooks.
+          Second team project at KYH using Github flow, scrum & sprints. A movie
+          app using built with React, Firebase auth, Firestore, Styled
+          Components & ChartJS. Unscripted makes it possible to search for
+          movies (TMDB), save them to your watchlists and get stats to really
+          know whether or not you've seen too many movies lately and which
+          genres you watched the most.
         </p>
         <small>
-          <span className="bold">Keywords: </span> React, useEffect, useState,
-          useReducer, useContext, External API
+          <span className="bold">Keywords: </span> React, Firebase, Firestore,
+          Styled Components, TMDB, ChartJS, Scrum, Figma
         </small>
         <div className="buttons">
           <a
             className="btn btn-primary floating"
-            href="https://rautenberg-githubfinder.netlify.app/"
+            href="https://unscripted-app.surge.sh"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -24,7 +28,7 @@ const Projects = () => {
           </a>
           <a
             className="btn btn-secondary floating"
-            href="https://github.com/mrautenberg/react-github-finder"
+            href="https://github.com/alexanderys/fe20tp2_bev_2"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -32,17 +36,18 @@ const Projects = () => {
           </a>
         </div>
       </article>
+
       <article>
-        <h2 className="project-title">Note app: Pen.</h2>
+        <h2 className="project-title">Pen</h2>
         <p className="project-description">
-          First major team project at KYH using Github flow, scrum & sprints. A
+          First team project at KYH using Github flow, scrum & sprints. A
           note-app with markdown functionality using SimpleMDE and adding extra
           functionaliy. Note sorting, dark mode feature and saves notes in local
           storage.
         </p>
         <small>
           <span className="bold">Keywords: </span> JavaScript, Github Flow, Team
-          Project, Local Storage, Editor, Markdown,
+          Project, Local Storage, Editor, Markdown
         </small>
         <div className="buttons">
           <a
@@ -64,21 +69,20 @@ const Projects = () => {
         </div>
       </article>
       <article>
-        <h2 className="project-title">Todo list: Listig.</h2>
+        <h2 className="project-title">React Github Finder</h2>
         <p className="project-description">
-          My very first JavaScript project. A very simple Todo list app that
-          stores todos in local storage. I also added a contact form with
-          validation to learn how to create one. WIP on refactoring, redesigned,
-          and speach to text functionality.
+          Project from Brad Traversy's React front to back course on Udemy.
+          Fetches data from Github API using Axios. Written with class-based
+          components and refactored to functional components with hooks.
         </p>
         <small>
-          <span className="bold">Keywords: </span> JavaScript, Form Validation,
-          Todo list, Local Storage, BEM CSS.
+          <span className="bold">Keywords: </span> React, useEffect, useState,
+          useReducer, useContext, External API
         </small>
         <div className="buttons">
           <a
             className="btn btn-primary floating"
-            href="https://rautenberg-listig.netlify.app/"
+            href="https://rautenberg-githubfinder.netlify.app/"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -86,7 +90,7 @@ const Projects = () => {
           </a>
           <a
             className="btn btn-secondary floating"
-            href="https://github.com/mrautenberg/todolist"
+            href="https://github.com/mrautenberg/react-github-finder"
             rel="noopener noreferrer"
             target="_blank"
           >

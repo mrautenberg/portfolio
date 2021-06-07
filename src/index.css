@@ -100,7 +100,6 @@ nav a {
 .home-container,
 .project-container {
   display: flex;
-  width: 60%;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -168,4 +167,52 @@ a.floating:hover {
 .link:hover {
   font-weight: 700;
   transition: 0.2s;
+}
+
+/* Media query */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 85%;
+  }
+
+  .container > * {
+    /* border: 3px solid yellow; */
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-description {
+    font-size: 1.125rem;
+  }
+
+  /* .buttons {
+    display: block;
+  } */
+
+  .btn {
+    margin-top: 0rem;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  a.floating {
+    position: relative;
+    transition: none;
+  }
+
+  /* reset for now to stop animation in mobile view */
+  a.floating:hover {
+    margin-top: 0rem;
+    margin-bottom: 0px;
+  }
 }
