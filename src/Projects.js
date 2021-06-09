@@ -7,11 +7,11 @@ const Projects = () => {
         <h2 className="project-title">Unscripted</h2>
         <p className="project-description">
           Second team project at KYH using Github flow, scrum & sprints. A movie
-          app using built with React, Firebase auth, Firestore, Styled
-          Components & ChartJS. Unscripted makes it possible to search for
-          movies (TMDB), save them to your watchlists and get stats to really
-          know whether or not you've seen too many movies lately and which
-          genres you watched the most.
+          app using React, Firebase auth, Firestore, Styled Components &
+          ChartJS. Unscripted makes it possible to search for movies (TMDB),
+          save them to your watchlists and get stats to actually know whether or
+          not you've seen too many movies lately and which genres you watched
+          the most.
         </p>
         <small>
           <span className="bold">Keywords: </span> React, Firebase, Firestore,
